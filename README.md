@@ -1,49 +1,37 @@
-# Privacy Cleaner
+# Ultimate Game & Privacy Cleaner
 
-A comprehensive system cleaning utility designed to remove digital traces and enhance privacy.
+![Windows Compatible](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows)
+![Stealth Mode](https://img.shields.io/badge/Mode-Stealth-black)
+![Admin Required](https://img.shields.io/badge/Privileges-Admin-red)
+
+A powerful cleaning utility designed for gamers and privacy-conscious users to remove digital traces from games and browsers.
 
 ## Features
 
-- **Multi-Browser Cleaning**: Supports Chrome, Edge, Firefox, and Brave
-- **Game Traces Removal**: Cleans Minecraft and TLauncher logs
-- **Network Anonymization**:
-  - IP address release/renew
-  - DNS cache flushing
-  - TCP/IP stack reset (admin)
-- **Forensic Countermeasures**:
-  - Secure file shredding
-  - Event log clearing (admin)
-  - Timestamp obfuscation
-- **Stealth Operation**:
-  - Hidden execution
-  - Random delay pattern
-  - Self-destruct mechanism
+### Game Cleaning
+- **Minecraft**  
+  ✓ Complete log removal  
+  ✓ Account JSON files cleanup  
+  ✓ Config file sanitization  
+- **TLauncher**  
+  ✓ Log deletion  
+  ✓ Account data removal  
+- **Game Launchers**  
+  ✓ Epic Games  
+  ✓ Riot Games  
+  ✓ Battle.net  
 
-## Supported Browsers
+### Privacy Protection
+- **Browser Cleaning**  
+  ✓ Chrome/Edge/Firefox  
+  ✓ Brave/Opera GX  
+  ✓ Multi-profile support  
+- **Discord**  
+  ✓ Token sanitization  
+  ✓ Local storage cleaning  
 
-- Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
-- Brave Browser (including Brave-specific data)
-
-## Usage
-
-1. Save the script as `ab.bat`
-2. Run normally for basic cleaning
-3. Run as Administrator for complete forensic cleaning
-
-## Technical Details
-
-- **File System**: Cleans temp files, recent documents, and prefetch
-- **Registry**: Removes run history and typed paths
-- **Network**: Full network stack reset and cache clearing
-- **Anti-Forensic**: Includes timestamp manipulation and secure deletion
-
-## Requirements
-
-- Windows 10/11 
-- Administrator privileges for full functionality
-
-## Disclaimer
-
-This tool is for educational purposes only. Use responsibly and in compliance with all applicable laws.
+### Security
+- Anti-VM detection
+- Forensic countermeasures
+- Network anonymization
+- Self-destruct mechanism
