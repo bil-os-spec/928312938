@@ -1,37 +1,58 @@
-# Ultimate Game & Privacy Cleaner
+# Privacy Cleaner
 
-![Windows Compatible](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows)
+![Windows Compatible](https://img.shields.io/badge/Windows-10%2F11%2F7-0078D6?logo=windows)
 ![Stealth Mode](https://img.shields.io/badge/Mode-Stealth-black)
 ![Admin Required](https://img.shields.io/badge/Privileges-Admin-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-5.1-blue)
 
-A powerful cleaning utility designed for gamers and privacy-conscious users to remove digital traces from games and browsers.
+A comprehensive privacy toolkit designed for gamers and security-conscious users. Removes digital footprints from games, browsers, and system traces while evading detection.
 
-## Features
+![Utility Preview](https://via.placeholder.com/800x400.png?text=Ultimate+Game+%26+Privacy+Cleaner+v5.1)
 
-### Game Cleaning
-- **Minecraft**  
-  ✓ Complete log removal  
-  ✓ Account JSON files cleanup  
-  ✓ Config file sanitization  
-- **TLauncher**  
-  ✓ Log deletion  
-  ✓ Account data removal  
-- **Game Launchers**  
-  ✓ Epic Games  
-  ✓ Riot Games  
-  ✓ Battle.net  
+## ✨ Key Features
 
-### Privacy Protection
-- **Browser Cleaning**  
-  ✓ Chrome/Edge/Firefox  
-  ✓ Brave/Opera GX  
-  ✓ Multi-profile support  
-- **Discord**  
-  ✓ Token sanitization  
-  ✓ Local storage cleaning  
+### 🎮 Advanced Game Cleaning
+| Game/Launcher       | Logs | Configs | Account Data | Cache |
+|---------------------|------|---------|--------------|-------|
+| Minecraft           | ✓    | ✓       | ✓            | ✓     |
+| TLauncher           | ✓    | ✓       | ✓            | ✓     |
+| Steam               | ✓    | ✓       | -            | ✓     |
+| Epic Games          | ✓    | -       | -            | ✓     |
+| Riot Games          | ✓    | -       | -            | ✓     |
+| Battle.net          | ✓    | -       | -            | ✓     |
+| Ubisoft Connect     | ✓    | -       | -            | ✓     |
 
-### Security
-- Anti-VM detection
-- Forensic countermeasures
-- Network anonymization
-- Self-destruct mechanism
+### 🔒 Privacy Protection
+- **Browser Sanitization** (Chrome, Edge, Firefox, Brave, Opera GX, Vivaldi)
+  - Complete history/cookie removal
+  - Local storage cleaning
+  - IndexedDB and cache purging
+  - Multi-profile support
+  
+- **Discord Security**
+  - Token sanitization
+  - Local storage cleaning
+  - Session data removal
+
+### 🛡️ Security Enhancements
+- **Anti-Forensics**
+  - Secure file shredding (3-pass overwrite)
+  - Windows event log cleaning
+  - Temp file destruction
+  
+- **Anti-Detection**
+  - VM detection bypass
+  - Stealth execution mode
+  - Memory cleaning
+
+- **Network Anonymization**
+  - DNS cache flush
+  - ARP cache clearing
+  - Winsock reset
+
+```bash
+# Command-line options
+cleaner.exe [stealth] [nodel]
+# stealth - runs in hidden mode
+# nodel  - skips self-destruction
